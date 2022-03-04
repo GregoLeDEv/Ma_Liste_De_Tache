@@ -28,7 +28,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("Erreur : Aucune tache ajouté");
+    alert("Erreur : Aucune tache ajouté"); //Si on ne remplis pas la case, cela va afficher un messsage d'erreur 
   } else {
     document.getElementById("myUL").appendChild(li);
   }
@@ -53,7 +53,7 @@ function newElement() {
 function clear(){
     document.getElementById("result").value.reset();}
 
-//Calendrier    
+//Calendrier qui s'ouvre sur la deuxième ligne   
         var days	= ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         var months	= ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
         
